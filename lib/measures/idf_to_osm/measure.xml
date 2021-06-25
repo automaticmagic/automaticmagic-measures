@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<measure>
+  <schema_version>3.0</schema_version>
+  <name>idf_to_osm</name>
+  <uid>efa9b068-4ce4-4a9d-b143-7488f08e77eb</uid>
+  <version_id>e74a8882-a727-4ca5-b38d-111857f83e92</version_id>
+  <version_modified>20210625T205842Z</version_modified>
+  <xml_checksum>9EF0A36D</xml_checksum>
+  <class_name>IdfToOsm</class_name>
+  <display_name>IdfToOsm</display_name>
+  <description>Translate IDF to OSM</description>
+  <modeler_description></modeler_description>
+  <arguments>
+    <argument>
+      <name>idf_path</name>
+      <display_name>IDF Path</display_name>
+      <description>Path to IDF file.</description>
+      <type>String</type>
+      <required>true</required>
+      <model_dependent>false</model_dependent>
+    </argument>
+    <argument>
+      <name>save_osm</name>
+      <display_name>Save OSM</display_name>
+      <description>Save OSM.</description>
+      <type>Boolean</type>
+      <required>false</required>
+      <model_dependent>false</model_dependent>
+      <default_value>false</default_value>
+      <choices>
+        <choice>
+          <value>true</value>
+          <display_name>true</display_name>
+        </choice>
+        <choice>
+          <value>false</value>
+          <display_name>false</display_name>
+        </choice>
+      </choices>
+    </argument>
+  </arguments>
+  <outputs />
+  <provenances />
+  <tags>
+    <tag>Envelope.Opaque</tag>
+  </tags>
+  <attributes>
+    <attribute>
+      <name>Measure Type</name>
+      <value>ModelMeasure</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Software Tool</name>
+      <value>Apply Measure Now</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Software Tool</name>
+      <value>OpenStudio Application</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Software Tool</name>
+      <value>Parametric Analysis Tool</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Use Case</name>
+      <value>Model Articulation</value>
+      <datatype>string</datatype>
+    </attribute>
+  </attributes>
+  <files>
+    <file>
+      <filename>EP_9.2_5ZoneAirCooled.idf</filename>
+      <filetype>idf</filetype>
+      <usage_type>test</usage_type>
+      <checksum>E3380415</checksum>
+    </file>
+    <file>
+      <filename>EP_9.3_5ZoneAirCooled.idf</filename>
+      <filetype>idf</filetype>
+      <usage_type>test</usage_type>
+      <checksum>5D32D005</checksum>
+    </file>
+    <file>
+      <filename>EP_9.4_5ZoneAirCooled.idf</filename>
+      <filetype>idf</filetype>
+      <usage_type>test</usage_type>
+      <checksum>A0762A53</checksum>
+    </file>
+    <file>
+      <filename>EP_9.5_5ZoneAirCooled.idf</filename>
+      <filetype>idf</filetype>
+      <usage_type>test</usage_type>
+      <checksum>634AC47B</checksum>
+    </file>
+    <file>
+      <filename>measure_test.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>test</usage_type>
+      <checksum>2ECA44D4</checksum>
+    </file>
+    <file>
+      <version>
+        <software_program>OpenStudio</software_program>
+        <identifier>3.2.0</identifier>
+        <min_compatible>2.9.0</min_compatible>
+      </version>
+      <filename>measure.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>script</usage_type>
+      <checksum>EA2385D7</checksum>
+    </file>
+  </files>
+</measure>

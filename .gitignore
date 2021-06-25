@@ -1,5 +1,6 @@
 *.gem
 *.rbc
+Gemfile.lock
 /.config
 /coverage/
 /InstalledFiles
@@ -9,6 +10,11 @@
 /test/tmp/
 /test/version_tmp/
 /tmp/
+
+# measures tests
+lib/measures/.rubocop.yml
+lib/measures/test_results/*
+lib/measures/*/tests/output
 
 # Used by dotenv library to load environment variables.
 # .env
