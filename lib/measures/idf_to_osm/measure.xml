@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>idf_to_osm</name>
   <uid>efa9b068-4ce4-4a9d-b143-7488f08e77eb</uid>
-  <version_id>e74a8882-a727-4ca5-b38d-111857f83e92</version_id>
-  <version_modified>20210625T205842Z</version_modified>
+  <version_id>f507d9dc-ca0b-47c9-9965-1a6460165963</version_id>
+  <version_modified>20210731T021945Z</version_modified>
   <xml_checksum>9EF0A36D</xml_checksum>
   <class_name>IdfToOsm</class_name>
   <display_name>IdfToOsm</display_name>
