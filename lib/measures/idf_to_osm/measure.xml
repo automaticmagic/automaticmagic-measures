@@ -3,8 +3,8 @@
   <schema_version>3.0</schema_version>
   <name>idf_to_osm</name>
   <uid>efa9b068-4ce4-4a9d-b143-7488f08e77eb</uid>
-  <version_id>f507d9dc-ca0b-47c9-9965-1a6460165963</version_id>
-  <version_modified>20210731T021945Z</version_modified>
+  <version_id>e5784460-fe5b-4408-b9d6-fd66b6963f9c</version_id>
+  <version_modified>20210828T192550Z</version_modified>
   <xml_checksum>9EF0A36D</xml_checksum>
   <class_name>IdfToOsm</class_name>
   <display_name>IdfToOsm</display_name>
@@ -112,6 +112,12 @@
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
       <checksum>EA2385D7</checksum>
+    </file>
+    <file>
+      <filename>LICENSE.md</filename>
+      <filetype>md</filetype>
+      <usage_type>license</usage_type>
+      <checksum>28719C80</checksum>
     </file>
   </files>
 </measure>
