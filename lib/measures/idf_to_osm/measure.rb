@@ -18,7 +18,7 @@ class IdfToOsm < OpenStudio::Measure::ModelMeasure
 
   # human readable description of modeling approach
   def modeler_description
-    return ''
+    return 'Translates an IDF to OSM'
   end
 
   # define the arguments that the user will input
